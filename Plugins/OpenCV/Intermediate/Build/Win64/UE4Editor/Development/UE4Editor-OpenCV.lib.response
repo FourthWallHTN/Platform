@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OpenCV.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Users\James\Documents\Unreal Projects\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.cpp.obj"
+"D:\Users\James\Documents\Unreal Projects\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.gen.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Users\James\Documents\Unreal Projects\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-OpenCV.lib"
