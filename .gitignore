@@ -50,8 +50,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-!Binaries/Win64/opencv_ffmpeg320_64.dll
-!Binaries/Win64/opencv_world320.dll
 
 # Builds
 Build/*
@@ -75,3 +73,13 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# OpenCV Plugin
+!Binaries/Win64/opencv_ffmpeg320_64.dll
+!Binaries/Win64/opencv_world320.dll
+!ThirdParty/OpenCV/Libraries/Win64/opencv_ffmpeg320_64.dll
+!ThirdParty/OpenCV/Libraries/Win64/opencv_world320.dll
+!ThirdParty/OpenCV/Libraries/Win64/opencv_world320.lib
+!ThirdParty/OpenCV/Libraries/Win64/opencv_world320d.dll
+!ThirdParty/OpenCV/Libraries/Win64/opencv_world320d.lib
+
