@@ -10,6 +10,7 @@ UCLASS()
 class FOURTHWALL_API ATestActor : public AActor
 {
 	GENERATED_BODY()
+	TArray<uint32> PrimeNumbers;
 	
 public:	
 	// Sets default values for this actor's properties
@@ -18,6 +19,7 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 public:	
 	// Called every frame
