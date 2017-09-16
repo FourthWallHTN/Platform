@@ -73,6 +73,7 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Plugins/OpenCV/Intermediate
 
 # OpenCV Plugin
 !Binaries/Win64/opencv_ffmpeg320_64.dll
