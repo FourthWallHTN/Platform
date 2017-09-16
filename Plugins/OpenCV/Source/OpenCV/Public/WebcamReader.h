@@ -6,8 +6,10 @@
 #include "opencv2/highgui.hpp"	
 #include "opencv2/imgproc.hpp"
 #include "opencv2/videoio.hpp"
+#include "opencv2/QrPlugin.h"
 #include "GameFramework/Actor.h"
 #include "Runtime/Engine/Classes/Engine/Texture2D.h"
+#include "OpenCV.h"
 #include "WebcamReader.generated.h"
  
 UCLASS()
@@ -74,6 +76,10 @@ public:
 	// The current data array
 	UPROPERTY(BlueprintReadOnly, Category = Webcam)
 	TArray<FColor> Data;
+
+	typedef bool(*_getDetect)(cv::Mat& image); // Declare a method to store the DLL method getInvertedBool.
+
+	_getDetect m_getDetect;
  
 protected:
  

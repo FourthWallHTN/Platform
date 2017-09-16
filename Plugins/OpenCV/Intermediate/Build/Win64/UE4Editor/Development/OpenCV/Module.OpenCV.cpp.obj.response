@@ -24,11 +24,11 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I C:\Users\nico\Documents\4thSense\Platform\ThirdParty\OpenCV\Includes
-/I C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Source
-/I C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Source\OpenCV\Public
-/I C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Inc\OpenCV
-/I C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Source\OpenCV
+/I C:\Users\natha\Documents\Platform\ThirdParty\OpenCV\Includes
+/I C:\Users\natha\Documents\Platform\Plugins\OpenCV\Source
+/I C:\Users\natha\Documents\Platform\Plugins\OpenCV\Source\OpenCV\Public
+/I C:\Users\natha\Documents\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Inc\OpenCV
+/I C:\Users\natha\Documents\Platform\Plugins\OpenCV\Source\OpenCV
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.cpp"
-/FI"C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Definitions.OpenCV.h"
-/Fo"C:\Users\nico\Documents\4thSense\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.cpp.obj"
+"C:\Users\natha\Documents\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.cpp"
+/FI"C:\Users\natha\Documents\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Definitions.OpenCV.h"
+/Fo"C:\Users\natha\Documents\Platform\Plugins\OpenCV\Intermediate\Build\Win64\UE4Editor\Development\OpenCV\Module.OpenCV.cpp.obj"
 /TP
 /GR-
 /W4

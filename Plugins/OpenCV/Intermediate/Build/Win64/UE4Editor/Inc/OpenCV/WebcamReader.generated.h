@@ -13,11 +13,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OPENCV_WebcamReader_generated_h
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_RPC_WRAPPERS
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_EVENT_PARMS
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_CALLBACK_WRAPPERS
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_INCLASS_NO_PURE_DECLS \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_RPC_WRAPPERS
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_EVENT_PARMS
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_CALLBACK_WRAPPERS
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWebcamReader(); \
 	friend OPENCV_API class UClass* Z_Construct_UClass_AWebcamReader(); \
@@ -27,7 +27,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_INCLASS \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAWebcamReader(); \
 	friend OPENCV_API class UClass* Z_Construct_UClass_AWebcamReader(); \
@@ -37,7 +37,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_STANDARD_CONSTRUCTORS \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWebcamReader(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWebcamReader) \
@@ -50,7 +50,7 @@ private: \
 public:
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_ENHANCED_CONSTRUCTORS \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWebcamReader(AWebcamReader&&); \
@@ -61,31 +61,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWebcamReader); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWebcamReader)
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_PRIVATE_PROPERTY_OFFSET
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_13_PROLOG \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_EVENT_PARMS
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_PRIVATE_PROPERTY_OFFSET
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_15_PROLOG \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_EVENT_PARMS
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_GENERATED_BODY_LEGACY \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_PRIVATE_PROPERTY_OFFSET \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_RPC_WRAPPERS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_CALLBACK_WRAPPERS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_INCLASS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_STANDARD_CONSTRUCTORS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_PRIVATE_PROPERTY_OFFSET \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_RPC_WRAPPERS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_CALLBACK_WRAPPERS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_INCLASS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_GENERATED_BODY \
+#define Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_PRIVATE_PROPERTY_OFFSET \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_CALLBACK_WRAPPERS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_INCLASS_NO_PURE_DECLS \
-	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_16_ENHANCED_CONSTRUCTORS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_PRIVATE_PROPERTY_OFFSET \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_CALLBACK_WRAPPERS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_INCLASS_NO_PURE_DECLS \
+	Platform_Plugins_OpenCV_Source_OpenCV_Public_WebcamReader_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

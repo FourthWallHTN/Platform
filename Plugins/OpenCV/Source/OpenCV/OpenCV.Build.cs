@@ -57,10 +57,12 @@ public class OpenCV : ModuleRules
 
             //Add Static Libraries
             PublicAdditionalLibraries.Add("opencv_world320.lib");
+            PublicAdditionalLibraries.Add("QrPlugin.lib");
 
             //Add Dynamic Libraries
             PublicDelayLoadDLLs.Add("opencv_world320.dll");
             PublicDelayLoadDLLs.Add("opencv_ffmpeg320_64.dll");
+            PublicDelayLoadDLLs.Add("QrPlugin.dll");
 
         }
 

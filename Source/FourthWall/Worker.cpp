@@ -6,6 +6,7 @@
 Worker* Worker::Runnable = NULL;
 //***********************************************************
 
+/*
 Worker::Worker(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFind, ATestActor * IN_PC) : ThePC(IN_PC)
 	, TotalPrimesToFind(IN_TotalPrimesToFind)
 	, StopTaskCounter(0)
@@ -15,7 +16,7 @@ Worker::Worker(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFind, ATest
 	PrimeNumbers = &TheArray;
 
 	Thread = FRunnableThread::Create(this, TEXT("FPrimeNumberWorker"), 0, TPri_BelowNormal); //windows default = 8mb for thread, could specify more
-}
+}*/
 
 Worker::~Worker()
 {
@@ -63,6 +64,7 @@ void Worker::Stop()
 	StopTaskCounter.Increment();
 }
 
+/*
 Worker* Worker::JoyInit(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFind, ATestActor * IN_PC)
 {
 	//Create new instance of thread if it does not exist
@@ -73,7 +75,7 @@ Worker* Worker::JoyInit(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFi
 		Runnable = new Worker(TheArray, IN_TotalPrimesToFind, IN_PC);
 	}
 	return Runnable;
-}
+}*/
 
 void Worker::EnsureCompletion()
 {

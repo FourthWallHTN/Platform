@@ -3,7 +3,6 @@
 #pragma once
 
 #include "Core.h"
-#include "TestActor.h"
 
 /**
  * 
@@ -18,7 +17,7 @@ class FOURTHWALL_API Worker : public FRunnable
 
 	/** The Data Ptr */
 	TArray<uint32>* PrimeNumbers;
-	ATestActor* ThePC;
+	//ATestActor* ThePC;
 
 	/** Stop this thread? Uses Thread Safe Counter */
 	FThreadSafeCounter StopTaskCounter;
@@ -35,11 +34,11 @@ private:
 	int32 PrimesFoundCount;
 public:
 	void EnsureCompletion();
-	static Worker* JoyInit(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFind, ATestActor* IN_PC);
+	//static Worker* JoyInit(TArray<uint32>& TheArray, const int32 IN_TotalPrimesToFind, ATestActor* IN_PC);
 
 
 	int32 TotalPrimesToFind;
-	Worker(TArray<uint32>& TheArray, const int32 IN_PrimesToFindPerTick, ATestActor * IN_PC);
+	//Worker(TArray<uint32>& TheArray, const int32 IN_PrimesToFindPerTick, ATestActor * IN_PC);
 	~Worker();
 
 	bool IsFinished() const

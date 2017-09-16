@@ -3,6 +3,8 @@
 #include "OpenCVPrivatePCH.h"
 #include "OpenCV.h"
 #include "WebcamReader.h"
+#include "Core.h"
+#include "Engine.h"
  
 // Sets default values
 AWebcamReader::AWebcamReader()
@@ -84,6 +86,33 @@ void AWebcamReader::UpdateFrame()
 
 void AWebcamReader::DoProcessing()
 {
+	detect(frame);
+	/*
+	FString filePath("C:\\Documents\\Platform\\Plugins\\QrPlugin\\QrPlugin.dll");
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, filePath);
+	if (FPaths::FileExists(*filePath))
+	{
+		void *DLLHandle;
+		DLLHandle = FPlatformProcess::GetDllHandle(*filePath); // retrieve the DLL
+		if (DLLHandle != NULL)
+		{
+			AWebcamReader::_getDetect DLLDetect = NULL;
+			FString procName = "detect";
+			DLLDetect = (AWebcamReader::_getDetect)FPlatformProcess::GetDllExport(DLLHandle, *procName);
+			if (DLLDetect != NULL)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString("Good"));
+			}
+			else
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString("Failed to find func"));
+			}
+		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("DLL ERROR!!"));
+		}
+	}*/
 
 }
  
