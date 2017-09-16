@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.17",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "FourthWall",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
