@@ -50,6 +50,8 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
+!Binaries/Win64/opencv_ffmpeg320_64.dll
+!Binaries/Win64/opencv_world320.dll
 
 # Builds
 Build/*
