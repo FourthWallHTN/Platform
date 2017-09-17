@@ -76,6 +76,8 @@ DerivedDataCache/*
 Plugins/OpenCV/Intermediate
 
 # OpenCV Plugin
+Plugins/OpenCV/Binaries/*
+Plugins/OpenCV/Intermediate/*
 !Binaries/Win64/opencv_ffmpeg320_64.dll
 !Binaries/Win64/opencv_world320.dll
 !ThirdParty/OpenCV/Libraries/Win64/opencv_ffmpeg320_64.dll
