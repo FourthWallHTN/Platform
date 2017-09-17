@@ -13,12 +13,6 @@
 			]
 		}
 	],
-	"Plugins": [
-		{
-			"Name": "OpenCV",
-			"Enabled": true
-		}
-	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
